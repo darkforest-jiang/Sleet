@@ -1,0 +1,17 @@
+E:\MyGithub\Sleet\TankBattle\bin\Debug\net6.0-windows\TankBattle.exe
+E:\MyGithub\Sleet\TankBattle\bin\Debug\net6.0-windows\TankBattle.deps.json
+E:\MyGithub\Sleet\TankBattle\bin\Debug\net6.0-windows\TankBattle.runtimeconfig.json
+E:\MyGithub\Sleet\TankBattle\bin\Debug\net6.0-windows\TankBattle.dll
+E:\MyGithub\Sleet\TankBattle\bin\Debug\net6.0-windows\TankBattle.pdb
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.csproj.AssemblyReference.cache
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.Main.resources
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.csproj.GenerateResource.cache
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.AssemblyInfoInputs.cache
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.AssemblyInfo.cs
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.csproj.CoreCompileInputs.cache
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.dll
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\refint\TankBattle.dll
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.pdb
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\TankBattle.genruntimeconfig.cache
+E:\MyGithub\Sleet\TankBattle\obj\Debug\net6.0-windows\ref\TankBattle.dll
