@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TankBattle.Base;
 
-public class DfKeys
+public struct DfKeys
 {
     public Keys _pressKey { get; private set; }
 

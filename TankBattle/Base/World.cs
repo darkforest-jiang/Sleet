@@ -4,11 +4,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace TankBattle.Base;
 
 public class World
 {
+    public Game _game { get; private set; }
     public Graphics _graphics { get; private set; }
     private List<SystemBase> _systems = new List<SystemBase> { };
     public Dictionary<int, EntityBase> _entitys = new Dictionary<int, EntityBase> { };
@@ -19,8 +21,9 @@ public class World
         return _inputComponent;
     }
 
-    public World(Graphics graphics) 
+    public World(Game game, Graphics graphics) 
     {
+        _game = game;
         _graphics = graphics;
         _inputComponent = new InputComponent();
     }

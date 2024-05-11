@@ -9,15 +9,18 @@ namespace TankBattle;
 
 public class MoveComponent : ComponentBase
 {
-    public DfDirections _direction { get; private set; }
-    private int _baseSpeed;
-    public int _speed { get; private set; }
+    public DfDirections _direction { get; set; }
+    public int _baseSpeed { get; set; }
+    public int _speed { get; set; }
 
-    public MoveComponent(DfDirections direction, int baseSpeed, int speed)
+    public bool _isAutoMove { get; set; }
+
+    public MoveComponent(DfDirections direction, int baseSpeed, int speed, bool isAutoMove = true)
     {
         _direction = direction;
         _baseSpeed = baseSpeed;
         _speed = speed;
+        _isAutoMove = isAutoMove;
     }
 
 }

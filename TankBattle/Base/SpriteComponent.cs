@@ -17,6 +17,11 @@ public class SpriteComponent : ComponentBase
 
     public SpriteComponent(Color color, int width, int height)
     {
+        SetTexture(color, width, height);
+    }
+
+    public void SetTexture(Color color, int width, int height)
+    {
         _texture = new Bitmap(width, height);
         using var g = Graphics.FromImage(_texture);
         g.Clear(color);
