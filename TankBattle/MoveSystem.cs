@@ -11,7 +11,6 @@ public class MoveSystem : SystemBase
 {
     public MoveSystem(World world): base(world)
     {
-        Subscribe<InputComponent>();
         Subscribe<TransformComponent>();
         Subscribe<MoveComponent>();
     }

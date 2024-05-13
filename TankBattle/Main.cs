@@ -24,6 +24,7 @@ namespace TankBattle
             enemy.AddComponent(World.GetSingletonInput());
             enemy.AddComponent(new TransformComponent(new Point(100, 100), new Size(20, 20)));
             enemy.AddComponent(new MoveComponent(DfDirections.Right, 50, 50));
+            enemy.AddComponent(new FireComponent(2, 100, new Size(10, 10), Color.DarkKhaki));
             enemy.AddComponent(new EnemyAIComponent(2000));
             enemy.AddComponent(new SpriteComponent(Color.Yellow, 20, 20));
             _game._world.AddEntity(enemy);
@@ -32,6 +33,7 @@ namespace TankBattle
             enemy2.AddComponent(World.GetSingletonInput());
             enemy2.AddComponent(new TransformComponent(new Point(200, 100), new Size(50, 50)));
             enemy2.AddComponent(new MoveComponent(DfDirections.Right, 50, 100));
+            enemy2.AddComponent(new FireComponent(2, 100, new Size(10, 10), Color.BlanchedAlmond));
             enemy2.AddComponent(new EnemyAIComponent(2000));
             enemy2.AddComponent(new SpriteComponent(Color.DarkOrange, 50, 50));
             _game._world.AddEntity(enemy2);
@@ -40,6 +42,7 @@ namespace TankBattle
             enemy3.AddComponent(World.GetSingletonInput());
             enemy3.AddComponent(new TransformComponent(new Point(300, 400), new Size(20, 20)));
             enemy3.AddComponent(new MoveComponent(DfDirections.Right, 50, 80));
+            enemy3.AddComponent(new FireComponent(2, 100, new Size(10, 10), Color.HotPink));
             enemy3.AddComponent(new EnemyAIComponent(2000));
             enemy3.AddComponent(new SpriteComponent(Color.PeachPuff, 20, 20));
             _game._world.AddEntity(enemy3);
@@ -48,6 +51,7 @@ namespace TankBattle
             tank1.AddComponent(World.GetSingletonInput());
             tank1.AddComponent(new TransformComponent(new Point(100, 400), new Size(20, 20)));
             tank1.AddComponent(new MoveComponent(DfDirections.Right, 50, 0, false));
+            tank1.AddComponent(new FireComponent(2, 100, new Size(10,10), Color.PaleVioletRed));
             tank1.AddComponent(new PlayerComponet());
             tank1.AddComponent(new SpriteComponent(Color.Red, 20, 20));
             _game._world.AddEntity(tank1);

@@ -49,4 +49,13 @@ public class World
     {
         _entitys.Remove(entity.ID);
     }
+
+    public int GetNextId()
+    {
+        if(_entitys.Any())
+        {
+            return _entitys.Keys.Max() + 1;
+        }
+        return 1;
+    }
 }
